@@ -1,0 +1,23 @@
+{
+    "name": "pendalf89/yii2-clientinfo",
+    "description": "Yii2 client info component, that detects real client IP address and device type",
+    "keywords": ["yii2", "yii 2", "ip", "device detector"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Zabolotskikh",
+            "email": "zabolotskich@bk.ru",
+            "homepage": "https://zabolotskikh.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "mobiledetect/mobiledetectlib": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "pendalf89\\clientinfo\\": "src/"
+        }
+    }
+}
