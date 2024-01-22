@@ -22,7 +22,8 @@ or add
 
 to the require section of your `composer.json` file.
 
-Configuration:
+Configuration
+------------
 
 ```php
 'components' => [
