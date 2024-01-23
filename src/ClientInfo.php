@@ -58,7 +58,6 @@ class ClientInfo extends Component
      */
     public function getIP(): string|null
     {
-        return '185.112.82.235';
         return Yii::$app->{$this->arrayCacheComponent}->getOrSet(__METHOD__, function () {
             $headers = [
                 'HTTP_CLIENT_IP',
